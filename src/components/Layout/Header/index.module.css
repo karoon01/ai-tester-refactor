@@ -1,0 +1,85 @@
+.header .dropdown {
+  position: absolute;
+  right: 25px;
+  top: 62px;
+  left: auto;
+}
+
+.dropdownItem {
+  padding: 9px 16px;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 2px 0;
+}
+
+.dropdownItem a:hover {
+  color: #1e2125;
+}
+
+.dropdownItem:hover {
+  background-color: rgba(73, 69, 255, 0.06);
+}
+
+.dropdownItem:focus {
+  background-color: rgba(73, 69, 255, 0.06);
+  color: #212529;
+}
+
+.dropdownHeader {
+  padding: 9px 16px;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.dropdownDivider {
+  margin: 4px 0;
+  border-top: none;
+  background-color: #ece9ef;
+}
+
+.profile {
+  cursor: pointer;
+}
+
+.header {
+  padding: 10px 40px;
+  background: #01004e;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.header a:hover {
+  color: white;
+}
+
+.header .navbarLogo {
+  font-size: 30px;
+}
+
+.navbarLogo:hover {
+  color: white;
+}
+
+.profile svg path {
+  opacity: 0.4;
+}
+
+.profile:hover svg path {
+  opacity: 0.6;
+}
+
+.login {
+  color: white;
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+}

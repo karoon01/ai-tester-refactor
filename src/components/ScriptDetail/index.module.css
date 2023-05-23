@@ -1,0 +1,90 @@
+.scripts {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+}
+
+.like {
+  font-size: 30px;
+  color: rgb(172, 0, 0);
+  cursor: pointer;
+  margin: 5px;
+  margin-left: auto;
+}
+
+.likeActive {
+  font-size: 30px;
+  color: rgb(172, 0, 0);
+  cursor: pointer;
+  margin: 5px;
+  margin-left: auto;
+  fill: rgb(172, 0, 0);
+  opacity: 1;
+}
+
+.likeActive:hover {
+  fill: transparent;
+}
+
+.like:hover {
+  fill: rgb(172, 0, 0);
+  opacity: 1;
+}
+
+.install {
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 15px;
+}
+
+.try {
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 15px;
+}
+
+.run {
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 15px;
+  margin: 12px;
+}
+
+.description {
+  min-height: 200px;
+  padding: 10px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.label {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: left;
+}
+
+.result {
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nonResize {
+  resize: none;
+}

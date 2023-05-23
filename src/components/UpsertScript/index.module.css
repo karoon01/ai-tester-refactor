@@ -1,0 +1,70 @@
+.closeButton {
+  color: black;
+}
+
+.closeButton:hover {
+  color: rgb(229, 36, 36);
+}
+
+.addButton {
+  color: #0d693e;
+}
+
+.addButton:hover {
+  color: #09bd69;
+}
+
+.editButton {
+  color: #267ed7;
+}
+
+.editButton:hover {
+  color: #72b2f2;
+}
+
+.infoBadges {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.infoBadgesItem {
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.infoBadges span {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.infoBadgesEdit {
+  margin-right: 7px;
+  margin-top: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.infoBadgesEdit:hover {
+  color: rgb(187, 187, 187);
+}
+
+.addInfoBody {
+  border-bottom: 1px solid;
+}
+
+.infoFieldsGroup {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+}
+
+.infoFieldBadge {
+  cursor: pointer;
+}
+
+.addInfoBody button {
+  width: 100%;
+}

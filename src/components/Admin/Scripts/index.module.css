@@ -1,0 +1,25 @@
+.buttonContainer {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.publicButton {
+  width: 120px;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 20ch;
+}
+
+.tableBody {
+  text-align: left;
+}
+
+.tableBody tr td:first-child {
+  width: 10%;
+}

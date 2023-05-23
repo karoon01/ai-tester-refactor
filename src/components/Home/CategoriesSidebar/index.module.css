@@ -1,0 +1,71 @@
+.sidebarMenu {
+  background-color: transparent;
+  height: min-content;
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 1;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+  min-width: 100%;
+  border-top: 1px solid #01004e;
+}
+
+.sidebarMenu .pro-menu a {
+  color: black;
+}
+
+.sidebarMenu .pro-sidebar-inner {
+  background: transparent;
+}
+
+.sidebarMenu div {
+  background: transparent;
+  color: black;
+}
+
+.wrapper {
+  width: 60px;
+  align-items: end;
+  line-height: 53.5px;
+  margin-right: -20px;
+}
+
+.wrapper:hover {
+  color: black;
+}
+
+.sidebarMenu .item {
+  font-size: 20px;
+}
+
+.sidebarMenu .inner {
+  background: transparent;
+}
+
+.sidebarMenu .item a {
+  font-size: 20px;
+  color: black;
+}
+
+.sidebarMenu .item:hover .wrapper {
+  color: black;
+}
+
+.sidebarMenu .item a:hover {
+  color: black;
+}
+
+.sidebarMenu .item:hover {
+  color: black;
+}
+
+@media (max-width: 1399px) {
+  .sidebarMenu {
+    display: none;
+  }
+
+  .showCategories {
+    display: block;
+  }
+}

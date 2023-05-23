@@ -1,0 +1,20 @@
+.subcategories {
+  display: grid;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.categoryBadge {
+  min-width: 300px;
+  max-width: 1fr;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #01004e;
+}
+
+.categoryBadge:hover {
+  opacity: 0.8;
+}
