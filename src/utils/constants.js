@@ -47,3 +47,16 @@ export const INPUT_TYPES = {
   SCRIPT_RESULT: 'script-result',
   INFO_FIELD_VALUE: 'info-field-value',
 }
+
+export const requiredForSaveFields = ['title', 'value', 'description', 'category', 'fields']
+export const requiredForNextStep = ['title', 'value', 'fields']
+export const requiredForTryFields = ['value', 'fields']
+
+export const steps = [
+  { id: 0, label: 'Script Information' },
+  { id: 1, label: 'Additional Information' },
+]
+
+export const curlyBracesRegex = /^(?:[^{}]*{[^{}]*})*[^{}]*$/
+export const scriptVariableRegex = /[^{}]*(?=\})/g
+export const shortcodeRegex = /{([^}]+)}/g
